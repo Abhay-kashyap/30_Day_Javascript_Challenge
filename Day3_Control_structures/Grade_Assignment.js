@@ -40,3 +40,8 @@ const greetings=(person)=>{
     return `Howdy ${name}`
 }
 console.log(greetings())
+
+
+const age =21;
+const beverage=age>=21?"Proper diet follow":"juice";
+console.log(beverage)
