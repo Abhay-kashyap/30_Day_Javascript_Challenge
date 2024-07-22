@@ -25,3 +25,18 @@ switch(true) {
 else{
     console.log(`grade is not number`)
 }
+
+
+// Task 6 Write a program that uses the ternary operator to check if a number is even or odd and log the result to the console
+let num=81;
+const checkingOddOrEven= num%2==0?  `number is even`: `number is odd`
+console.log(checkingOddOrEven);
+
+
+
+// handle null values is best example of ternary operator
+const greetings=(person)=>{
+    const name =person?person.name:"strange";
+    return `Howdy ${name}`
+}
+console.log(greetings())
