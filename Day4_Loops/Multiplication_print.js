@@ -3,5 +3,3 @@ let table=5;
 for(let i=1;i<=10;i++){
     console.log(`${table} X ${1} = ${table*i}`);
 }
-
-// 
