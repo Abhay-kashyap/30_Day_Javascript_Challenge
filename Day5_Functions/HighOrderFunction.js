@@ -25,4 +25,4 @@ return value*value;
 }
 let value=7;
 let result=high(addOne,square,value);
-console.log(result);
+console.log(result)
