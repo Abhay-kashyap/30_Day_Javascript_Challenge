@@ -5,5 +5,5 @@ for(let i=0;i<=arr.length-1;i++){
 }
 // Task 11 : Use a forEach method to iterate over the array and log each element to the console
 arr.forEach((curEle)=>{
-    console.log(curEle)
+    console.log(`element of arr is ${curEle}`)
 })
