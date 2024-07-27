@@ -63,4 +63,4 @@ const book={
         return `Book Title : ${this.title} Year: ${this.year}`
     }
 }
-console.log(book.returnStr())
+console.log(book.returnStr());
