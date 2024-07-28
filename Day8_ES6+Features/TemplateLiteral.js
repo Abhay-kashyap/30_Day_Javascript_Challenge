@@ -7,4 +7,4 @@ console.log(`Using template literals to log the person name : ${personName} and 
 const str=`This is a multiline string.
 It can span multiple lines.
 Here is another line.`;
-console.log(str)
+console.log(str);
