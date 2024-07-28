@@ -12,4 +12,4 @@ const book={
     year:1993
 }
 const {title:t,author:a}=book
-console.log(`title of the book is : ${t} ,and author of that book :  ${a}`);
+console.log(`title of the book is : ${t} ,and author of that book :  ${a}`)
