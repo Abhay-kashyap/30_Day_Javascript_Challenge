@@ -3,7 +3,7 @@ let p=document.getElementById('para');
 console.log(p)
 let btn=document.querySelector('button')
 btn.addEventListener('click',()=>{
-    p.innerText='that paragraph content change by btn click'
+    p.innerText='that paragraph content change by btn click';
 })
 // Task 10 : Add a mouseover event listener to an element that changes its border color
 p.addEventListener('mouseover',()=>{
