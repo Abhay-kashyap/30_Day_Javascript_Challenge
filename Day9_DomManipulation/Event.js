@@ -1,7 +1,7 @@
 // Task 9: Add a click event listener to a button that changes the text content of paragraph
 let p=document.getElementById('para');
-console.log(p)
-let btn=document.querySelector('button')
+console.log(p);
+let btn=document.querySelector('button');
 btn.addEventListener('click',()=>{
     p.innerText='that paragraph content change by btn click';
 })
