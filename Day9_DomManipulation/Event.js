@@ -7,8 +7,8 @@ btn.addEventListener('click',()=>{
 })
 // Task 10 : Add a mouseover event listener to an element that changes its border color
 p.addEventListener('mouseover',()=>{
-    p.style.border='2px solid green'
+    p.style.border='2px solid green';
 })
 p.addEventListener('mouseout',()=>{
-    p.style.border=''
+    p.style.border='';
 })
